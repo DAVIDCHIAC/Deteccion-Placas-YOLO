@@ -178,6 +178,13 @@ print(r.json()["placas"])   # -> ["ABC123"]
 
 Con la imagen incluida `carroprueba.JPG` se detecta la placa `JNU540`:
 
+<img width="737" height="1600" alt="image" src="https://github.com/user-attachments/assets/b18a0d74-2817-4b07-93f9-ce43c6fd9b0e" />
+<img width="737" height="1600" alt="image" src="https://github.com/user-attachments/assets/b0882a83-c41c-4b76-a548-6bcbfc0c4d9e" />
+<img width="737" height="1600" alt="image" src="https://github.com/user-attachments/assets/f4da4a89-ee59-465a-82ab-f752bc851d3f" />
+
+
+
+
 ```bash
 curl -X POST -F "file=@carroprueba.JPG" http://localhost:8080/predict/
 ```
