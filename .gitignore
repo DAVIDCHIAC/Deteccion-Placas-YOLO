@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# datos y claves
+.env
+*.pem
+*.key
+*.p12
+
+# Notebooks temporales
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Ultralytics
+runs/
+datasets/
+.yolo-cache/
+.ultralytics/
